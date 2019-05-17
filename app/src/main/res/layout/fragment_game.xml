@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameFragment">
+
+    <!-- Game fragment container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title" />
+
+        <TextView
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/programmed_by_author" />
+
+        <!-- Text and the 3 button container -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:text="@string/my_pick" />
+
+            <Button
+                android:id="@+id/btnRock"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/rock" />
+
+            <Button
+                android:id="@+id/btnPaper"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/paper" />
+
+            <Button
+                android:id="@+id/btnScissors"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/scissors" />
+
+        </LinearLayout>
+
+        <!--Layout to have one of my text by the blue color -->
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp">
+
+                <TextView
+                    android:textSize="25dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_pick_is" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp">
+
+                <TextView
+                    android:textSize="25dp"
+                    android:id="@+id/tvComputerPick"
+                    android:textColor="@color/colorBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/choice" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:textSize="25dp"
+            android:id="@+id/tvWhoWon"
+            android:textColor="@color/colorBlue"
+            android:text="@string/winner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

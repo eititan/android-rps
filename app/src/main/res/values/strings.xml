@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CS3270A3 Hutchins</string>
+
+    <!-- top panel strings -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toast_message">Counts are reset</string>
+    <string name="title">Rock, Paper, Scissors</string>
+    <string name="programmed_by_author">Programmed by John Hutchins</string>
+
+    <!--Button strings-->
+    <string name="my_pick">My Pick:</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+    <string name="reset_string">Reset Counts</string>
+
+    <!-- Game feedback strings-->
+    <string name="phone_pick_is">Phone Pick is</string>
+    <string name="winner">-</string>
+
+
+    <!-- Game Score strings -->
+    <string name="games_played">Games Played</string>
+    <string name="win_count">My Win Count</string>
+    <string name="phone_win_count">Phone Win Count</string>
+    <string name="tie_games">Tie Games</string>
+
+
+    <string name="reset_counts">Counts are reset</string>
+    <string name="choice">\?</string>
+    <string name="num_games_played">0</string>
+    <string name="num_games_won">0</string>
+    <string name="num_games_lost">0</string>
+    <string name="num_games_tied">0</string>
+</resources>
